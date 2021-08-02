@@ -1,0 +1,1 @@
+CREATE TABLE t_user (user_id int primary key auto_increment, name varchar(50), pass varchar(50), mail varchar(50) default null);

@@ -1,0 +1,2 @@
+CREATE TABLE t_audit (audit_id int primary key auto_increment, user_id int, action_type tinyInt, action_date datetime);
+CREATE TABLE t_access_token (token_id int primary key auto_increment, audit_id int, user_id int, expire_date datetime);

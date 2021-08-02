@@ -1,0 +1,2 @@
+insert into t_access_token (token_id, audit_id, user_id, expire_date) values ("1", "6", "3", '2010.01.01 23:59:59.999');
+insert into t_access_token (token_id, audit_id, user_id, expire_date) values ("2", "9", "1", '2020.01.01 12:52:00.000');

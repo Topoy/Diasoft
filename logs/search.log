@@ -1,0 +1,32 @@
+2021-08-01 16:11:44.086 [main] INFO  main.Main - Starting Main on MacBook-Pro-Artem.local with PID 2569 (started by artemtopoev in /Users/artemtopoev/Desktop/Test tasks/DiasoftTest)
+2021-08-01 16:11:44.095 [main] INFO  main.Main - No active profile set, falling back to default profiles: default
+2021-08-01 16:11:44.576 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-01 16:11:44.622 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 1 JPA repository interfaces.
+2021-08-01 16:11:45.080 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-01 16:11:45.403 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-08-01 16:11:45.420 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-01 16:11:45.422 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-08-01 16:11:45.422 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-08-01 16:11:45.531 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-08-01 16:11:45.531 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1384 ms
+2021-08-01 16:11:45.679 [main] INFO  org.flywaydb.core.internal.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2021-08-01 16:11:45.688 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-08-01 16:11:46.044 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-08-01 16:11:46.081 [main] INFO  org.flywaydb.core.internal.database.DatabaseFactory - Database: jdbc:mysql://localhost:3306/diasoft_test (MySQL 8.0)
+2021-08-01 16:11:46.118 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.018s)
+2021-08-01 16:11:46.131 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `diasoft_test`: 6
+2021-08-01 16:11:46.132 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `diasoft_test` is up to date. No migration necessary.
+2021-08-01 16:11:46.244 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-01 16:11:46.334 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.10.Final}
+2021-08-01 16:11:46.455 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-08-01 16:11:46.574 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-01 16:11:47.121 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-01 16:11:47.127 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-01 16:11:47.519 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-01 16:11:47.687 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-08-01 16:11:47.709 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-01 16:11:47.712 [main] INFO  main.Main - Started Main in 3.905 seconds (JVM running for 4.797)
+2021-08-01 16:14:52.677 [SpringContextShutdownHook] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-01 16:14:52.678 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-01 16:14:52.680 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-08-01 16:14:52.698 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

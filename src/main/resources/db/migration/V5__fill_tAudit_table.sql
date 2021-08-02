@@ -1,0 +1,9 @@
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("1", "1", "1", '2020-01-01 12:32:45.099');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("2", "1", "2", '2020-01-01 12:35:50.439');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("3", "2", "1", '2021-02-14 23:45:03.519');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("4", "3", "1", '2010.01.01 14:07:10.131');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("5", "3", "2", '2010.01.01 14:07:13.152');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("6", "3", "3", '2010.01.01 14:05:15.167');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("7", "3", "4", '2010.01.01 23:07:10.298');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("8", "1", "5", '2020.01.01 12:36:15.479');
+insert into t_audit (audit_id, user_id, action_type, action_date) values ("9", "1", "3", '2020.01.01 12:37:01.618');
